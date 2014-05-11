@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container {
+  clear: both;
+  width: 850px;
+  height: 580px;
+}
+
+#chatWindow {
+  width: 100%;
+}
+
+#chatMessagesWindow {
+  height: 486px;
+  border: 1px solid gray;
+  margin-bottom: 7px;
+  overflow: auto;
+}
+
+#chatInput {
+  padding-left: 7px;
+  width: 841px;
+  height: 35px;
+  border: 1px solid gray;
+  line-height: 20px;
+  font-size: 16px;
+  float: right;
+}
+
+
+#chatMessagesWindow p {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.statusMessage {
+  color: orange;
+}
+
+/* Using "callButtons" as there will be a Video Call feature eventually. */
+#callButtons {
+  margin-bottom: 7px;
+}
+
+#callButtons button {
+  margin-right: 5px;
+  width: 95px;
+  height: 30px;
+}
+
+#partnerSaid {
+  color: blue;
+}
+
+#youSaid {
+  color: red;
+}

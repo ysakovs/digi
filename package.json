@@ -1,0 +1,21 @@
+{
+  "name": "chatroom",
+  "author": "DanyPell",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Simple chatroom and random chat (a la chatroulette/omegle) app.",
+  "keywords": ["node.js", "socket.io", "chat", "chatroom", "omegle", "chatroulette", "express", "jade"],
+  "homepage": "faceflow.com:3000",
+  "repository": { 
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "socket.io": "latest"
+  }
+}
