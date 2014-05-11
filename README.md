@@ -7,3 +7,4 @@ To run:
 - npm i
 - Edit line 1 of public/javascripts/global.js to correctly reflect the host you want to use.
 - node app.js (or npm start)
+- Demo of the app: http://faceflow.com:3000/ (always running using forever)
